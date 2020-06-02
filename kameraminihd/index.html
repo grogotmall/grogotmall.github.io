@@ -57,6 +57,20 @@
             display: inline-block;
             height: 50px;
         }
+        .videocon {
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-bottom: 56.25%;
+            margin-bottom: 100px;
+        }
+        .video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
     </style>
 </head>
 <body>
@@ -94,11 +108,15 @@
     <img class="fimg"  alt="kamera mini hd" src="./Mini-HD-Cam-11-1.jpg"/>
     </div>
 
+
+    <div class="videocon">
+    <iframe class="video" src="https://www.youtube.com/embed/WVnf7KXH-zw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
     <div class="beli">
         <a target="_blank" href="https://wa.me/6281253896501"><img src="./HUBUNGI-WA-BUTTON.png"/></a>
     </div>
 
-   <!-- Histats.com  (div with counter) --><div id="histats_counter"></div>
+    <!-- Histats.com  (div with counter) --><div id="histats_counter"></div>
 <!-- Histats.com  START  (aync)-->
 <script type="text/javascript">var _Hasync= _Hasync|| [];
     _Hasync.push(['Histats.start', '1,4410808,4,111,175,25,00010000']);
